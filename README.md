@@ -5,7 +5,7 @@ To start the project:
 
 Then visit `localhost:3000`
 
-## E-commerce Search and Filtering System using React
+* E-commerce Search and Filtering System using React
 
 ### Developed a robust search and filtering system for an e-commerce platform using React.js.
 # Implemented advanced filtering functionalities to handle complex scenarios, including filtering data by name, price, category, and color.
