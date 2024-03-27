@@ -6,7 +6,7 @@ import Input from '../../CustomComponent/Input';
 const Category = ({ handleChange }) => {
 
     return (
-        <div>
+        <div style={{margin:"0 .5rem"}}>
             <h2 className="sidebar-title">Category</h2>
 
 
@@ -21,20 +21,20 @@ const Category = ({ handleChange }) => {
                 title="Flats"
                 name="test"
             />
-       
-       <Input
-          handleChange={handleChange}
-          value="sandals"
-          title="Sandals"
-          name="test"
-        />
-        <Input
-          handleChange={handleChange}
-          value="heels"
-          title="Heels"
-          name="test"
-        />
-       
+
+            <Input
+                handleChange={handleChange}
+                value="sandals"
+                title="Sandals"
+                name="test"
+            />
+            <Input
+                handleChange={handleChange}
+                value="heels"
+                title="Heels"
+                name="test"
+            />
+
 
         </div>
     );

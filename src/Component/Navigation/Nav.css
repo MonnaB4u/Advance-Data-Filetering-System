@@ -1,11 +1,12 @@
 nav {
     display: flex;
     border-bottom: 2px solid #f3f3f3;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     z-index: 999;
     margin-left: 2rem;
+    position: relative;
   }
   
   input {
@@ -24,3 +25,14 @@ nav {
     height: 1.5rem;
     margin-left: 2rem;
   }
+
+  @media (max-width:992px) {
+    .nav-icons{
+      margin: 0;
+    }
+  
+  }
+  
+  @media (max-width:768px) {}
+  
+  @media (max-width:600px) {}

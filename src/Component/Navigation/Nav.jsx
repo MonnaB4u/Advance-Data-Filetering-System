@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css'
-
+import { GiShoppingCart } from "react-icons/gi";
 
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 import { FiHeart } from "react-icons/fi";
@@ -8,6 +8,7 @@ import { FiHeart } from "react-icons/fi";
 const Nav = ({ handleInputChange, query }) => {
     return (
         <nav>
+           <h1><GiShoppingCart/></h1>
             <div className="nav-container">
                 <input
                     className="search-input"

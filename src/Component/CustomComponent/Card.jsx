@@ -7,8 +7,11 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
     return (
         <div>
              <section className="card">
+
                     <img className='card-img' src={img} alt={title} />
+
                     <div className="card-details">
+                        
                         <h3 className="card-title">{title}</h3>
 
                         <section className="card-reviesa">

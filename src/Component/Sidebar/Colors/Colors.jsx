@@ -3,7 +3,7 @@ import './Colors.css';
 import Input from '../../CustomComponent/Input';
 const Colors = ({handleChange}) => {
     return (
-        <div>
+        <div style={{margin:"0 .8rem"}}>
             <h2 className="sidebar-title">Colors</h2>
 
             <label className="sidebar-label-container">

@@ -1,24 +1,130 @@
 .recommended-flex {
-    display: flex;
-    margin-left: 20rem;
+  display: flex;
+  margin-left: 10rem;
+}
+
+.recommended-title {
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+
+}
+
+.burger {
+  display: none;
+}
+
+/* .modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  z-index: 1;
+  display: block;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: 100px auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 70px;
+  min-width: 85%;
+} */
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  /* background: #f1f1f1; */
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 400px;
+  color: white;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+
+@media (max-width:992px) {
+  .burger {
+    display: block;
   }
-  
+
+  .recohead {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+  }
+
+  .recommended-flex {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .recommended-title {
-    margin-left: 20rem;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 20px;
-    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+
   }
 
   .btns {
-    padding: 10px 20px;
-    margin-right: 6px;
-    background: transparent;
-    border: none;
-    border: 0.6px solid #ccc;
-    border-radius: 5px;
-    color: #323232;
-    cursor: pointer;
-    
+    font-size: .5rem;
+
   }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:600px) {}
